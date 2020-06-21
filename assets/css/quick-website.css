@@ -68,6 +68,12 @@ html {
   height:65%;
 }
 
+.logo-img{
+  padding: 1px;
+    width: 100px;
+    margin: 8px 20px 1px 0px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
 .chevron {
   position: absolute;
   width: 28px;
@@ -7519,8 +7525,6 @@ button.bg-dark:focus {
   align-items: center;
   padding-bottom: 20px;
   text-align: center;
-  cursor: -webkit-grab;
-  cursor: grab;
   border: none !important;
     outline: none !important;
 }
@@ -7540,7 +7544,7 @@ button.bg-dark:focus {
 }
 
 .team-photos .item h2 {
-  min-height:60px;
+  min-height:50px;
   opacity: 0.9;
   font-weight: 600;
   text-align: center;
@@ -7548,7 +7552,13 @@ button.bg-dark:focus {
   line-height: 1.2;
   margin-top: 15px;
   font-size: 1.3em;
+  cursor:pointer;
 }
+
+.team-photos .item h2:hover {
+text-decoration: underline;
+}
+
 
 .team-photos .item h4 {
   font-weight: 400;
